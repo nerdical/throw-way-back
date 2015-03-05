@@ -12,7 +12,7 @@ import praw
 P = praw.Reddit(user_agent = ("Post top image from the past week in /r/historyporn to Facebook for throw[way]back Thursday."
 							  "Put together by /u/koberg"))
 
-user_id = "<REDDIT USER NAME"
+user_id = "<REDDIT USER NAME>"
 user_pass = "<REDDIT PASSWORD>"
 P.login(user_id, user_pass)
 
