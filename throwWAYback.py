@@ -27,4 +27,3 @@ for post in imagePost:
 	F.AUTH_SCOPE = ['publish_stream']
 	F.authenticate()
 	F.post('/me/feed', {'message' : message})
-	F.logout()
