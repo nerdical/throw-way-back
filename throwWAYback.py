@@ -21,7 +21,7 @@ sub = P.get_subreddit("historyporn")
 imagePost = sub.get_top_from_week(limit = 1)
 
 for post in imagePost:
-	message = "Throw[way]back Thursday!\n\n" + post.title + "\n\n" + post.url + "\n\nSubmitted by /u/" + str(post.author) + "\n\nThis post was made with the Throw[way]back python script.\nMore information can be found at https://github.com/nerdical/throw-way-back"
+	message = "Throw[way]back Thursday!\n\n" + post.title + "\n\n" + post.url + "\n\nSubmitted by /u/" + str(post.author) + "\n\nCreated with the Throw[way]back python script.\nInformation @ https://github.com/nerdical/throw-way-back"
 	post.upvote()
 	F.APP_ID = "746516458795325"
 	F.AUTH_SCOPE = ['publish_stream']
